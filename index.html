@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>07:07</span>
+      </div>
+      <div class="status-bar__column">
+        <span>77%</span>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <div class="welcome-message">
+      <h1>Welcome to Inside-out Talk</h1>
+      <p>If you have a Insid-out Talk Accout,</p>
+      <p>log in with your email or phone number.</p>
+    </div>
+    <div class="login">
+      <form action="friends.html" method="get" id="login-form">
+        <input
+          type="text"
+          class="login-form__input"
+          placeholder="Email or phone number"
+        />
+        <input
+          type="password"
+          class="login-form__input"
+          placeholder="Password"
+        />
+        <input type="submit" class="login-page__btn" value="Log In" />
+      </form>
+      <button class="login-page__btn" onclick="location.href = '#'">
+        Sign Up
+      </button>
+      <a href="#">Find Account or Password</a>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/0c34bb9f7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
