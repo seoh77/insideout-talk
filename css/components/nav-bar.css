@@ -1,0 +1,22 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 55px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav i {
+  font-size: 23px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
