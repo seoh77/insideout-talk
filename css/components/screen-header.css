@@ -1,10 +1,10 @@
-header {
+.screen-header {
   display: flex;
   justify-content: space-between;
   margin: 50px 25px 25px 25px;
 }
 
-header h2 {
+.screen-header h2 {
   font-size: 25px;
   font-weight: 600;
 }
