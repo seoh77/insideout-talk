@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 50px 25px 0 25px;
+  margin: 50px 25px 25px 25px;
 }
 
 header h2 {
@@ -10,5 +10,5 @@ header h2 {
 }
 
 .header__icons i {
-  margin-left: 10px;
+  margin-left: 15px;
 }
