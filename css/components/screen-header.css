@@ -12,3 +12,16 @@
 .header__icons i {
   margin-left: 15px;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.header__icons .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}
