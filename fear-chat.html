@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="chat-screen" class="bg-color--fear">
+    <div class="status-bar bg-color--fear">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>07:07</span>
+      </div>
+      <div class="status-bar__column">
+        <span>77%</span>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <header class="alt-screen-header bg-color--fear">
+      <a href="chats.html" class="chat-screen-header__column">
+        <i class="fa-solid fa-angle-left"></i>
+      </a>
+      <h2 class="chat-screen-header__column">소심이</h2>
+      <div class="chat-screen-header__column">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <main class="chat-screen">
+      <div class="chat__date">Monday, August 7, 2023</div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">나 내일 학교에서 발표있어!!!😫</span>
+            <span class="message__time">23:23</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="img/fear_avatar.png" class="user-component__avatar-xs" />
+        <div class="message-row__content">
+          <span class="message__author">소심이</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >망했어.. 대본 까먹으면 어떡해..!</span
+            >
+            <span class="message__time">23:30</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">
+              그니까.. 그냥 내일이 안 왔으면ㅜㅠㅠ
+            </span>
+            <span class="message__time">23:47</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile reply-column__emoticon-btn"></i>
+        <button class="reply-column__up-btn">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/0c34bb9f7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

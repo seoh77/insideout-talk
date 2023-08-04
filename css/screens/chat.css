@@ -3,7 +3,7 @@
 }
 
 .bg-color--sadness {
-  background-color: #025196;
+  background-color: #347bb9;
 }
 
 .bg-color--anger {
@@ -15,7 +15,7 @@
 }
 
 .bg-color--fear {
-  background-color: #b136b8;
+  background-color: #ca5fcf;
 }
 
 #chat-screen .alt-screen-header {
@@ -59,11 +59,15 @@
   background-color: rgba(0, 0, 0, 0.1);
   font-size: 12px;
   font-weight: 400;
-  color: rgba(233, 232, 232, 0.9);
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.chat__date:not(:first-child) {
+  margin-top: 50px;
 }
 
 .message-row {

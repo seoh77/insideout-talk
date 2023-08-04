@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="chat-screen" class="bg-color--sadness">
+    <div class="status-bar bg-color--sadness">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>07:07</span>
+      </div>
+      <div class="status-bar__column">
+        <span>77%</span>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <header class="alt-screen-header bg-color--sadness">
+      <a href="chats.html" class="chat-screen-header__column">
+        <i class="fa-solid fa-angle-left"></i>
+      </a>
+      <h2 class="chat-screen-header__column">슬픔이</h2>
+      <div class="chat-screen-header__column">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <main class="chat-screen">
+      <div class="chat__date">Monday, August 7, 2023</div>
+      <div class="message-row">
+        <img src="img/sadness_avatar.png" class="user-component__avatar-xs" />
+        <div class="message-row__content">
+          <span class="message__author">슬픔이</span>
+          <div class="message__info">
+            <span class="message__bubble">오늘 아무 일도 없었지?? 제발..</span>
+            <span class="message__time">20:52</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >오늘 지각에다가 친구랑도 싸우고...</span
+            >
+            <span class="message__time">21:02</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >그냥 오늘 하루도 완전 엉망이었어</span
+            >
+            <span class="message__time">21:20</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="img/sadness_avatar.png" class="user-component__avatar-xs" />
+        <div class="message-row__content">
+          <span class="message__author">슬픔이</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >오늘도 힘든 하루였네.. 고생했어..</span
+            >
+            <span class="message__time">21:23</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile reply-column__emoticon-btn"></i>
+        <button class="reply-column__up-btn">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/0c34bb9f7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
