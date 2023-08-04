@@ -1,0 +1,11 @@
+.screen-subtitle {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.screen-subtitle__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 5px;
+  color: var(--gray);
+  font-size: 13px;
+}

@@ -16,15 +16,6 @@
 
 .my_profil {
   padding-bottom: 20px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-}
-
-.friends-screen__friends-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 5px;
-  color: var(--gray);
-  font-size: 13px;
 }
 
 .friends-screen__friends-list {
