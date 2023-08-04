@@ -1,0 +1,11 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 25px 25px 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.alt-screen-header .fa-angle-left {
+  font-size: 25px;
+}
