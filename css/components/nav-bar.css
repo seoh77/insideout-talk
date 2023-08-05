@@ -16,6 +16,16 @@
   justify-content: space-between;
 }
 
+.nav__btn {
+  position: relative;
+}
+
+.nav__btn .badge {
+  position: absolute;
+  left: 13px;
+  bottom: 10px;
+}
+
 @keyframes appearBtnAnimation {
   from {
     opacity: 0;
