@@ -175,6 +175,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 25px;
   color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
 }
 
 .reply-column__emoticon-btn,
@@ -208,4 +209,25 @@
 
 .reply__column input:focus {
   outline: none;
+}
+
+.reply .reply__column:first-child,
+.reply-column__emoticon-btn,
+.reply-column__up-btn {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .reply-column__emoticon-btn,
+.reply:focus-within .reply-column__up-btn {
+  opacity: 0;
+}
+
+.reply:focus-within .reply__column > input {
+  transform: translateX(-5%);
+  border-radius: 13px;
+}
+
+.reply:focus-within {
+  background-color: inherit;
 }
