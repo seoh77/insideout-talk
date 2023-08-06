@@ -154,7 +154,6 @@
 
 .reply {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   width: 100%;
   position: fixed;
@@ -183,7 +182,6 @@
 .reply input {
   padding: 7px 15px;
   width: 100%;
-  /* box-sizing: border-box; */
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 25px;
   color: rgba(0, 0, 0, 0.7);
