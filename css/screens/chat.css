@@ -117,11 +117,23 @@
   border-top-left-radius: 0px;
 }
 
-.message__time {
+.message__add-info {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.message__time,
+.message__unread {
   display: block;
   font-size: 10px;
   color: var(--gray);
   margin-left: 5px;
+}
+
+.message__unread {
+  color: white;
+  margin-bottom: 3px;
 }
 
 .message-row--own {
