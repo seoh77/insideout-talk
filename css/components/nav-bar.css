@@ -20,10 +20,23 @@
   position: relative;
 }
 
-.nav__btn .badge {
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-4px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav__notification {
   position: absolute;
-  left: 13px;
+  left: 14px;
   bottom: 10px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 @keyframes appearBtnAnimation {
